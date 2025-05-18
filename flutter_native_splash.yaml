@@ -1,0 +1,14 @@
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/quran1.jpg
+  branding: assets/images/basmala1.jpg
+  color_dark: "#1C1C1C"
+  image_dark: assets/images/quran2.jpg
+  branding_dark: assets/images/basmala2.jpg
+
+  android_12:
+    image: assets/images/quran1.jpg
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/images/quran2.jpg
+    icon_background_color_dark: "#1C1C1C"
