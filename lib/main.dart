@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project/homescreen.dart';
+import 'package:flutter_project/mythemedata.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: HomeScreen.routname,
       routes: {HomeScreen.routname: (context) => HomeScreen()},
+
+      theme: Mythemedata.lightTheme,
     );
   }
 }
