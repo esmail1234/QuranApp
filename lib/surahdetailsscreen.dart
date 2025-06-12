@@ -12,7 +12,7 @@ class SurahDetailsScreen extends StatefulWidget {
 
 class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
   List<String> verses = [];
-  late SurahDetailsArgs args; // تعريف المتغير بعد الحصول عليه من Route
+  late SurahDetailsArgs args;
 
   @override
   void didChangeDependencies() {
