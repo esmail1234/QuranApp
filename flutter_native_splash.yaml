@@ -1,5 +1,6 @@
 # flutter_native_splash-development.yaml
 flutter_native_splash:
+<<<<<<< HEAD
   color: "#65D6FC"
   image: assets/images/Group.png
   branding: assets/images/Group.png
@@ -12,3 +13,17 @@ flutter_native_splash:
     icon_background_color: "#ffffff"
     image_dark: assets/images/Group.png
     icon_background_color_dark: "#121212"
+=======
+  color: "#FFFFFF"
+  image: assets/images/quran1.jpg
+  branding: assets/images/basmala1.jpg
+  color_dark: "#1C1C1C"
+  image_dark: assets/images/quran2.jpg
+  branding_dark: assets/images/basmala2.jpg
+
+  android_12:
+    image: assets/images/quran1.jpg
+    icon_background_color: "#FFFFFF"
+    image_dark: assets/images/quran2.jpg
+    icon_background_color_dark: "#1C1C1C"
+>>>>>>> e61f00de3223ecf9493d2dfe3d668bb5888f8779

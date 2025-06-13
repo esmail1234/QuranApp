@@ -41,7 +41,11 @@
         </scene>
     </scenes>
     <resources>
+<<<<<<< HEAD
         <image name="LaunchImage" width="301" height="339"/>
+=======
+        <image name="LaunchImage" width="736" height="736"/>
+>>>>>>> e61f00de3223ecf9493d2dfe3d668bb5888f8779
         <image name="LaunchBackground" width="1" height="1"/>
         <image name="BrandingImage" width="1" height="1"/>
     </resources>
