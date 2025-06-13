@@ -25,11 +25,12 @@ class HadithDetailScreen extends StatelessWidget {
               hadith.title,
               style: const TextStyle(
                 fontFamily: 'Amiri',
-                fontSize: 35,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Color(0xFFFFFFFF),
               ),
               textDirection: TextDirection.rtl,
+              textAlign: TextAlign.center,
             ),
             centerTitle: true,
             leading: IconButton(

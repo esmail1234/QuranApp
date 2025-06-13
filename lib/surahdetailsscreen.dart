@@ -49,7 +49,7 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                     itemBuilder: (context, index) {
                       return Padding(
                         padding: const EdgeInsets.symmetric(
-                          vertical: 12.0,
+                          vertical: 20.0,
                           horizontal: 16.0,
                         ),
                         child: Text(
@@ -61,6 +61,7 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                             fontFamily: 'Amiri',
                           ),
                           textAlign: TextAlign.center,
+
                         ),
                       );
                     },

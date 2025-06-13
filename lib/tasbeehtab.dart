@@ -53,7 +53,7 @@ class _TasbeehTabState extends State<TasbeehTab> {
                   color: Color(0xFF65D6FC),
                 ),
               ),
-              SizedBox(height: 45),
+              SizedBox(height: 35),
               Text(
                 "عدد التسبيحات",
                 style: TextStyle(
@@ -63,7 +63,7 @@ class _TasbeehTabState extends State<TasbeehTab> {
                   color: Color(0xFF65D6FC),
                 ),
               ),
-              SizedBox(height: 100),
+              SizedBox(height: 60),
               Container(
                 width: 80,
                 height: 40,
@@ -82,7 +82,7 @@ class _TasbeehTabState extends State<TasbeehTab> {
                   ),
                 ),
               ),
-              SizedBox(height: 80),
+              SizedBox(height: 60),
 
               TextButton(
                 onPressed: () {
@@ -105,9 +105,10 @@ class _TasbeehTabState extends State<TasbeehTab> {
                   alignment: Alignment.center,
                   child: Text(
                     azker[phase],
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 25,
+                      fontSize: 20,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Amiri',
                     ),
