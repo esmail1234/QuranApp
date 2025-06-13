@@ -92,22 +92,22 @@ class _HadithTabState extends State<HadithTab> {
   void loadhadithfiles() async {
     String hadithcontent = await DefaultAssetBundle.of(context).loadString(
         'assets/files/hadith.txt');
-    // تقسيم الملف بناءً على فاصل '##'
+
     List<String> hadithBlocks = hadithcontent.trim().split('##');
     List<Hadith> tempList = [];
     for (String block in hadithBlocks) {
-      // تنظيف الكتلة من المسافات البيضاء
+
       block = block.trim();
       if (block.isNotEmpty) {
-        // تقسيم الكتلة إلى سطور
+
         List<String> hadithlines = block
             .split('\n')
             .map((line) => line.trim())
             .toList();
         if (hadithlines.isNotEmpty) {
-          // العنوان هو السطر الأول
+
           String title = hadithlines[0];
-          // المحتوى هو باقي السطور
+
           List<String> content = hadithlines.sublist(1).where((line) =>
           line.isNotEmpty).toList();
           Hadith hadith = Hadith(title: title, content: content);
