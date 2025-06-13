@@ -108,7 +108,7 @@ class _TasbeehTabState extends State<TasbeehTab> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 20,
+                      fontSize: 21,
                       fontWeight: FontWeight.bold,
                       fontFamily: 'Amiri',
                     ),

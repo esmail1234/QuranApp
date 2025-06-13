@@ -69,7 +69,7 @@ class _HadithTabState extends State<HadithTab> {
                         child: Text(
                           hadithlist[index].title,
                           style: const TextStyle(
-                            fontSize: 25,
+                            fontSize: 24,
                             color: Color(0xFF65D6FC),
                             fontWeight: FontWeight.bold,
                             fontFamily: 'Amiri',

@@ -25,7 +25,7 @@ class HadithDetailScreen extends StatelessWidget {
               hadith.title,
               style: const TextStyle(
                 fontFamily: 'Amiri',
-                fontSize: 20,
+                fontSize: 21,
                 fontWeight: FontWeight.bold,
                 color: Color(0xFFFFFFFF),
               ),

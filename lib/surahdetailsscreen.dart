@@ -49,7 +49,7 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                     itemBuilder: (context, index) {
                       return Padding(
                         padding: const EdgeInsets.symmetric(
-                          vertical: 20.0,
+                          vertical: 21.0,
                           horizontal: 16.0,
                         ),
                         child: Text(

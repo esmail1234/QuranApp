@@ -47,7 +47,7 @@ class Surahscreen extends StatelessWidget {
                 Text(
                   '${SurahVerses[index]}',
                   style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 31,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Amiri',
                     color: Color(0xFF65D6FC),
