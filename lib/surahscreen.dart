@@ -5,7 +5,7 @@ class Surahscreen extends StatelessWidget {
   List<String> SurahNames;
   List<int> SurahVerses;
 
-  Surahscreen({required this.SurahNames, required this.SurahVerses});
+  Surahscreen({super.key, required this.SurahNames, required this.SurahVerses});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class Surahscreen extends StatelessWidget {
                 SizedBox(width: 20),
                 Expanded(
                   child: Text(
-                    '${SurahNames[index]}',
+                    SurahNames[index],
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -47,7 +47,7 @@ class Surahscreen extends StatelessWidget {
                 Text(
                   '${SurahVerses[index]}',
                   style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 31,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Amiri',
                     color: Color(0xFF65D6FC),

@@ -12,7 +12,7 @@ class SurahDetailsScreen extends StatefulWidget {
 
 class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
   List<String> verses = [];
-  late SurahDetailsArgs args; // تعريف المتغير بعد الحصول عليه من Route
+  late SurahDetailsArgs args;
 
   @override
   void didChangeDependencies() {
@@ -49,7 +49,7 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                     itemBuilder: (context, index) {
                       return Padding(
                         padding: const EdgeInsets.symmetric(
-                          vertical: 12.0,
+                          vertical: 21.0,
                           horizontal: 16.0,
                         ),
                         child: Text(
@@ -61,6 +61,7 @@ class _SurahDetailsScreenState extends State<SurahDetailsScreen> {
                             fontFamily: 'Amiri',
                           ),
                           textAlign: TextAlign.center,
+
                         ),
                       );
                     },

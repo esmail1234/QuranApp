@@ -14,7 +14,7 @@ class QuranTab extends StatefulWidget {
 
 class _QuranTabState extends State<QuranTab> {
   int _selectedTab = 0;
-  TextEditingController _searchController = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   List<String> filteredSurahNames = [];
   List<int> filteredSurahVerses = [];
 
@@ -328,7 +328,7 @@ class _QuranTabState extends State<QuranTab> {
                         style: TextStyle(
                           color: _selectedTab == 0 ? Color(0xFF65D6FC) : Colors
                               .grey[600],
-                          fontSize: 16,
+                          fontSize: 15,
                         ),
                       ),
                       Divider(
@@ -384,6 +384,8 @@ class _QuranTabState extends State<QuranTab> {
 }
 
 class ParaScreen extends StatelessWidget {
+  const ParaScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(

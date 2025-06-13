@@ -9,7 +9,7 @@ class Mythemedata {
       iconTheme: IconThemeData(color: Colors.white),
       titleTextStyle: TextStyle(
         color: Colors.white,
-        fontSize: 30,
+        fontSize: 31,
         fontWeight: FontWeight.bold,
       ),
     ),
