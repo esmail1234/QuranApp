@@ -14,7 +14,7 @@ class QuranTab extends StatefulWidget {
 
 class _QuranTabState extends State<QuranTab> {
   int _selectedTab = 0;
-  TextEditingController _searchController = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   List<String> filteredSurahNames = [];
   List<int> filteredSurahVerses = [];
 
@@ -384,6 +384,8 @@ class _QuranTabState extends State<QuranTab> {
 }
 
 class ParaScreen extends StatelessWidget {
+  const ParaScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Center(

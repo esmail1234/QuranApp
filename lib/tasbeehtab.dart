@@ -76,7 +76,7 @@ class _TasbeehTabState extends State<TasbeehTab> {
                   '$count',
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 25,
+                    fontSize: 24,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Amiri',
                   ),
