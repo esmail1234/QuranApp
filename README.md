@@ -1,16 +1,39 @@
-# flutter_project
+# 📱 Quran App
 
-A new Flutter project.
+A simple Flutter app that includes:
+- 📖 Quran Surahs with verse counts
+- 🌙 Daily Azkar (remembrances)
+- 📜 Selected Hadiths (Prophet’s sayings)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 👨‍💻 Developer Info
 
-A few resources to get you started if this is your first Flutter project:
+This app was originally developed by:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Esmail Mohamed**  
+GitHub: [esmail1234](https://github.com/esmail1234)  
+First commit: May 18, 2025
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+All core features (Quran, Azkar, Hadith) were built in the first version.
+
+---
+
+## 🔐 Notes
+
+- This project is shared for learning and Islamic benefit.
+- Any reuse or modifications must include credit to the original developer.
+- Contributions are welcome with respect to original authorship.
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter & Dart
+- Designed for offline use
+
+---
+
+## 🤲 Final Note
+
+May Allah accept this work and make it beneficial for all.
